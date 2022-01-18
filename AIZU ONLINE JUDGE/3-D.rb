@@ -24,6 +24,6 @@ for i in a..b do
     # sum += i　最後に p sum　でもOK
   end 
 end
-puts(count)
+puts("配列の個数は#{count}つです")
 p divisions
-print(divisions.sum)
+print("約数の総和は#{divisions.sum}です")
