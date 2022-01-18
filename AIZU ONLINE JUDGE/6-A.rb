@@ -6,3 +6,8 @@ n = gets.to_i
 ai = gets.split(" ").map(&:to_i)
 
 puts ai.reverse.join(" ")
+
+
+# 模範解答(0.02s)
+# n = gets
+# puts gets.split.reverse.join(" ")
